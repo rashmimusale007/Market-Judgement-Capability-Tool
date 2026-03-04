@@ -1,0 +1,443 @@
+{
+  "episode_id": "ep02",
+  "code": "EP02",
+  "title": "Fixed Income",
+  "tagline": "Fixed Income — Precision in the Asset Class Clients Ignore Until It Fails",
+  "episode_context": "Fixed income is the most systematically neglected component of the distributor's knowledge base. Most distributors can explain equity style cycles; far fewer can explain why a long-duration fund lost 4% in 2022 while the RBI was cutting rates, or why IL&FS was AAA-rated until the day before its default.\n\nThis episode rebuilds fixed income from first principles — duration mechanics, rate cycle positioning, credit risk frameworks, and the specific process decisions that allowed Axis to navigate three major credit events without principal impairment.\n\nKey Reference Data: RBI Repo Rate Cycle 2014-2025 | IL&FS Default September 2018 | DHFL Default 2019 | Franklin Templeton Wind-Up April 2020 | Modified Duration Formula | India 10-Year G-Sec Yield History",
+  "context_blocks": [
+    {
+      "type": "text",
+      "title": "Episode context",
+      "content": "Fixed income is the most systematically neglected component of the distributor's knowledge base. Most distributors can explain equity style cycles; far fewer can explain why a long-duration fund lost 4% in 2022 while the RBI was cutting rates, or why IL&FS was AAA-rated until the day before its default.\n\nThis episode rebuilds fixed income from first principles — duration mechanics, rate cycle positioning, credit risk frameworks, and the specific process decisions that allowed Axis to navigate three major credit events without principal impairment.\n\nKey Reference Data: RBI Repo Rate Cycle 2014-2025 | IL&FS Default September 2018 | DHFL Default 2019 | Franklin Templeton Wind-Up April 2020 | Modified Duration Formula | India 10-Year G-Sec Yield History"
+    },
+    {
+      "type": "charts",
+      "title": "Key reference data",
+      "chart_refs": [
+        "ep02_rbi_repo_rate_cycle_2014_2025",
+        "ep02_il_fs_default_september_2018",
+        "ep02_dhfl_default_2019",
+        "ep02_franklin_templeton_wind_up_april_2020",
+        "ep02_modified_duration_formula",
+        "ep02_india_10_year_g_sec_yield_history"
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "title": "Duration Mechanics",
+      "full_title": "Phase 1 — Duration Mechanics",
+      "introduction": "Duration is the single most important metric in fixed income and the most frequently misunderstood. Modified Duration measures the percentage change in bond price for a 1% change in yield — an 8-year duration fund falls approximately 8% if the 10-year yield rises 1%. The rate cut benefit works symmetrically. However, the gain is only captured if cuts were not already priced into the market before the announcement.",
+      "answer_framework": "Duration mechanics questions test whether the participant can distinguish between: (1) the theoretical relationship between rate changes and bond prices; (2) the market pricing of anticipated rate changes before official announcement; (3) the yield curve shape (short-end vs long-end moves may differ); and (4) the expense ratio drag that affects net-of-fee returns. Getting all four right simultaneously is required for the most difficult questions.",
+      "questions": [
+        {
+          "id": "ep02_q1",
+          "qno": "Q1",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "The RBI cuts rates 135bps over 18 months. A long-duration fund earns only slightly above its coupon yield in two of those years — not significantly more. A distributor is confused: \"Shouldn't rate cuts produce large capital gains?\" What is the most accurate explanation?",
+          "options": {
+            "A": "The fund held low-quality paper that had credit events offsetting the rate gains — so the expected capital appreciation was neutralised by credit-related NAV drag during the same period.",
+            "B": "Bond markets price in expected cuts before they are announced — in years where the market had fully anticipated the RBI's action, the announcement produced minimal additional price appreciation. Carry was earned but no incremental capital gain was available because it was already in prices.",
+            "C": "Long-duration funds have high expense ratios that consume most of the spread between coupon and total return — net-of-fee returns often fall close to the stated yield even in favourable rate environments.",
+            "D": "Duration measures sensitivity to parallel yield curve shifts — if the RBI cuts short-term rates but the long end barely moves, a fund positioned in long-duration bonds earns the carry but almost no capital gain regardless of the headline rate reduction."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nLong-duration funds have high expense ratios that consume most of the spread between coupon yield and total return. Net-of-fee returns in favourable rate environments often fall close to the stated yield even when capital appreciation occurs, because the fee drag offsets a significant portion of the return pickup from rate cuts.\n\nWhy the other options are incorrect:\nOption A: Credit events offsetting rate gains would show as credit-related NAV write-downs, not as close-to-coupon returns. The scenario describes a well-managed fund earning slightly above coupon.\nOption B: Bond markets pricing in expected cuts is accurate as a mechanism, but the expense ratio explanation specifically accounts for why even the carry income, net of fees, produces results close to stated yield.\nOption D: Yield curve shape is a real consideration, but the scenario specifies a long-duration fund in a rate-cut environment — if the long end did not move, the fund would not be described as 'long-duration' in the context of capturing rate cuts."
+        },
+        {
+          "id": "ep02_q2",
+          "qno": "Q2",
+          "type": "Data",
+          "difficulty": "Medium",
+          "stem": "What makes acting before the official signal the correct call — despite the absence of formal RBI guidance?",
+          "options": {
+            "A": "The RBI rarely acts without prior signal, so the responsible approach is to wait for guidance — acting before confirmation risks being wrong if the RBI prioritises growth support over inflation, as it did in 2020.",
+            "B": "By the time the first hike is officially announced, the bond market has already priced much of the initial surprise — the NAV damage from the first move hits before the press release. The manager's job is to read convergent macro signals, not wait for the RBI to confirm what inflation data already shows.",
+            "C": "Acting early is correct but only partially — maintaining some long-duration exposure hedges the scenario where the RBI surprises with continued dovishness, which happened in 2013 when the Fed's policy reversal quickly changed India's rate path.",
+            "D": "In crisis environments — war, supply shocks — central banks historically prioritise growth over inflation control, making the RBI more likely to hold rates despite the apparent macro pressure, which is what actually happened in the first quarter of 2022."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nBy the time the first hike is officially announced, bond markets have already priced much of the initial surprise. The NAV damage from the first move arrives before the formal announcement. A fund manager's job is to read convergent macro signals and position ahead of the official confirmation.\n\nWhy the other options are incorrect:\nOption A: Waiting for official guidance is risk management, not active fixed income management. The scenario specifically asks why acting before the signal was the correct call — Option A argues against acting.\nOption C: Maintaining partial long-duration exposure as a hedge sounds cautious but misses the key insight that early action captures the most protection.\nOption D: Option D describes what happened historically in 2020 as a generalisation — but the specific scenario is about an inflation-driven environment where the inflation-fighting case is clear."
+        },
+        {
+          "id": "ep02_q3",
+          "qno": "Q3",
+          "type": "Scenario",
+          "difficulty": "Medium-Hard",
+          "stem": "An analyst concludes: \"Currency-defense rate hikes are always temporary — they should always be bought aggressively in the bond market.\" What is the most precise problem with generalising from this episode?",
+          "options": {
+            "A": "The 2013 reversal was fast because the Fed delayed its actual taper in September 2013 — removing the external trigger quickly. A currency-defense hike where the underlying pressure persists (sustained current account deficit, entrenched inflation) could last 12-24 months, making the \"always buy\" rule dangerous.",
+            "B": "The MSF hike was technically a liquidity measure rather than a conventional policy rate change — it worked through banking system funding costs differently, making it a distinct instrument whose reversal patterns don't generalise to standard repo rate hikes.",
+            "C": "One data point is statistically insufficient to establish a rule about currency-defense hikes — you need multiple episodes across different macro contexts before the generalisation becomes methodologically valid.",
+            "D": "The causality is backwards — the hike reversed not because it was designed to be temporary, but because the RBI's clear communication that it was currency-specific (not inflation-fighting) allowed reversal without credibility loss. Inflation-fighting hikes cannot reverse as quickly regardless of external conditions."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe MSF hike was technically a liquidity tightening measure, not a conventional repo rate change. It worked through banking system funding costs differently and was explicitly designed as a currency-defence instrument — making its reversal patterns distinct from standard repo rate hike cycles.\n\nWhy the other options are incorrect:\nOption A: The Fed's taper delay is the correct historical reason for the 2013 reversal's speed, but it makes the episode even less generalisable — the reversal was fast because an external trigger was removed, not because currency-defence hikes are structurally temporary.\nOption C: One data point being insufficient is the statistician's objection — true but not the most precise problem. The instrument distinction in Option B is more analytically precise.\nOption D: Option D essentially describes what happened in this specific episode, not a general principle that limits generalisation. The instrument distinction is the more precise analytical answer."
+        },
+        {
+          "id": "ep02_q4",
+          "qno": "Q4",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "February 2025: RBI cuts rates for the first time since 2020. A distributor advises all clients to immediately shift from liquid funds into long-duration bond funds. What is the specific analytical gap in this recommendation?",
+          "options": {
+            "A": "Product suitability is ignored — long-duration funds are more volatile than liquid funds, and for clients who may need liquidity within 12 months, a sudden rate reversal could create a NAV loss at exactly the worst time.",
+            "B": "The recommendation treats the first official cut as a \"start\" signal when it is often an \"acknowledgement\" signal — bond markets typically price significant easing cycle depth before the first announcement. Entering after the first cut may mean buying after much of the cycle's capital gain has already occurred.",
+            "C": "A staged deployment over 3-6 months would capture more of the cycle than a single lump-sum entry, which risks timing the start of a cut cycle that could reverse quickly if inflation re-accelerates unexpectedly.",
+            "D": "Moving all clients simultaneously creates execution pressure — coordinated demand for long-duration fund units can create pricing distortions that erode the return advantage of early entry for large distributor books."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nStaged deployment over 3-6 months captures more of the rate cut cycle than a single lump-sum entry. The first cut may be an early signal with more cuts to follow — entering in tranches allows the investor to benefit from subsequent cut pricing across multiple entry points.\n\nWhy the other options are incorrect:\nOption A: Product suitability is always relevant, but it is a client-specific consideration that applies to recommending any product to any client. The question asks about the 'specific analytical gap' in the recommendation.\nOption B: The 'acknowledgement vs start signal' distinction is analytically correct, but it leads to deferring rather than staging. Staged entry is more actionable than 'don't enter after the first cut.'\nOption D: Execution pressure from coordinated distributor activity is a theoretical concern but is not a primary analytical gap in the individual recommendation decision."
+        },
+        {
+          "id": "ep02_q5",
+          "qno": "Q5",
+          "type": "Data",
+          "difficulty": "Medium",
+          "stem": "What critical difference only becomes visible four years later — and what does it imply for how fixed income performance should be evaluated?",
+          "options": {
+            "A": "Manager B's portfolio has higher convexity from the mix of corporate bonds with different durations — visible only in detailed attribution analysis, producing slightly different NAV paths through the rate cycle but not materially different annual returns.",
+            "B": "Manager B's lower-rated holdings were accumulating credit risk that appeared benign through the easing cycle but crystallised in the 2018 IL&FS cascade. Similar 2014 returns masked fundamentally different risk profiles: Manager A earned rate return; Manager B earned rate return plus uncompensated credit risk premium.",
+            "C": "Manager B's diversified credit approach would actually outperform in the subsequent rate-hike cycle — higher corporate spreads provided more cushion against rising yields than G-Secs, making B the better manager when viewed across the full 2014-2022 period.",
+            "D": "The difference is primarily one of liquidity — G-Secs can be sold at scale without market impact, while Manager B's corporate holdings face bid-ask spreads that become significant during redemption pressure, but are invisible in normal market conditions."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nManager B's lower-rated holdings were accumulating credit risk that appeared benign through the 2014-2018 easing cycle but crystallised in the 2018 IL&FS cascade. Similar 2014 returns masked fundamentally different risk profiles: Manager A earned rate return; Manager B earned rate return plus uncompensated credit risk premium.\n\nWhy the other options are incorrect:\nOption A: Higher convexity differences in NAV paths are minor portfolio construction nuances. Convexity differences do not explain the large divergence in outcomes that the IL&FS-era credit events would have created.\nOption C: This option gets the direction of the outcome wrong — Manager B's credit exposure would have been severely punished, not rewarded, through the 2018-2020 credit cycle.\nOption D: Liquidity is a real difference but the question specifies 'visible four years later' — credit risk accumulation is the correct answer, not liquidity risk."
+        }
+      ]
+    },
+    {
+      "title": "The Rate Cycle",
+      "full_title": "Phase 2 — The Rate Cycle",
+      "introduction": "India's rate cycle from 2014 to 2025 provides multiple episodes for analysis: the 2014-2016 easing cycle, the 2018-2019 liquidity stress, the 2020 COVID emergency cuts, the 2022-2023 sharp hiking cycle, and the 2025 cutting cycle beginning. Each episode tested different aspects of fixed income positioning. The questions use these specific episodes to test whether the participant can apply duration mechanics to real scenarios rather than abstract examples.",
+      "answer_framework": "Rate cycle positioning requires understanding both the mechanics (duration response to rate changes) and the market pricing dynamic (anticipated cuts are already in prices before the announcement). The examiner tests whether the participant can identify when acting early was correct versus when it was too late. December 2025 is early in the RBI cutting cycle — the distribution of future cuts has not been fully priced.",
+      "questions": [
+        {
+          "id": "ep02_q6",
+          "qno": "Q6",
+          "type": "Scenario",
+          "difficulty": "Medium-Hard",
+          "stem": "What is the most important flaw in this reassurance?",
+          "options": {
+            "A": "The reassurance is broadly correct — once a hike is priced in, bond prices stabilise and the carry begins accruing toward recovery. The timeline is a function of duration and carry, and \"a few months\" is a reasonable estimate for an 8-year duration fund.",
+            "B": "One hike being \"priced in\" doesn't mean the entire cycle is priced in. If the RBI delivers 200-250bps of total tightening over 18 months, each subsequent hike creates a new NAV impact. Recovery is determined by the full cycle depth and the client's holding period — not just the first move.",
+            "C": "8.2 years is an unusually high duration for a dynamic bond fund — that positioning itself represents an allocation error, which requires a separate conversation about whether the manager was following the fund's mandate before the rate shock hit.",
+            "D": "Full NAV recovery requires the 10-year yield to return to pre-hike levels, which only happens when the RBI eventually eases — so the recovery timeline is the full tightening-then-easing cycle, not carry accrual from the current level."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nOne hike being 'priced in' does not mean the entire cycle is priced in. If the RBI delivers 200-250bps of total tightening over 18 months, each subsequent hike creates a new NAV impact. Recovery is determined by the full cycle depth — not just the first move and its carry-back calculation.\n\nWhy the other options are incorrect:\nOption A: 'The reassurance is broadly correct' is wrong — it is precisely the flaw the question asks to identify. Accepting the 8.2-year duration fund's recovery narrative without acknowledging the multi-hike cycle risk is the error.\nOption C: Questioning whether 8.2-year duration is appropriate for a dynamic bond fund is a valid prior question, but it is a mandate compliance issue, not the primary flaw in the specific reassurance.\nOption D: Full NAV recovery requiring a return to pre-hike yield levels is mechanically correct but is a separate point from the question's focus on the 'first hike priced in' error."
+        },
+        {
+          "id": "ep02_q7",
+          "qno": "Q7",
+          "type": "Scenario",
+          "difficulty": "Medium-Hard",
+          "stem": "What does rigorous analysis of the exit-and-re-enter strategy actually reveal?",
+          "options": {
+            "A": "The strategy is clearly sound — exiting before confirmed hikes avoids the NAV fall, and re-entering at the rate peak captures the full subsequent rally. Delays in execution increase downside exposure with no compensating benefit.",
+            "B": "The expected 100bps of tightening may already be priced into current bond yields. If so, exiting now provides no protection and incurs capital gains tax, exit loads, and re-entry timing risk. The fund's 7.2% carry partially offsets the rate impact — and the investor who stays may net no worse than the one who exits and re-enters one cycle later.",
+            "C": "The strategy is correct in principle but suitable only for institutional investors with dedicated fixed income research — retail clients lack the tools to identify the rate peak and execute re-entry correctly, making the strategy theoretically sound but practically inaccessible.",
+            "D": "The only rigorous answer is to match fund duration to the client's investment horizon — if the client has a 3+ year horizon, the rate cycle is largely irrelevant because carry compounds over time and the duration mismatch risk disappears at longer holding periods."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nThe exit-and-re-enter strategy is correct in principle but accessible only to institutional investors with dedicated fixed income research capabilities to identify the rate peak and execute re-entry correctly. For most distributor clients, the strategy introduces timing execution risk that eliminates the expected benefit.\n\nWhy the other options are incorrect:\nOption A: 'The strategy is clearly sound' ignores the tax and timing cost of exit and re-entry. Option A presents it as obviously correct without acknowledging the transaction costs and execution risks.\nOption B: The 7.2% carry offsetting rate impact is a reasonable point, but stating the investor who stays 'may net no worse' is uncertain. Option B doesn't cleanly identify what is wrong with the strategy.\nOption D: Matching duration to investment horizon is sound fixed income advice but is a separate prescription, not a rigorous analysis of the exit-and-re-enter strategy specifically."
+        },
+        {
+          "id": "ep02_q8",
+          "qno": "Q8",
+          "type": "Data",
+          "difficulty": "Medium",
+          "stem": "What explains the excess return beyond what the year-end yield change formula would predict?",
+          "options": {
+            "A": "The 50bps year-end change is measured trough to peak — within 2020 yields fell to ~5.7% in September before rising back to 5.9% by December. A fund that rebalanced around the intra-year trough captured significantly more than the end-of-year snapshot shows.",
+            "B": "The RBI's 2020 measures — TLTRO purchases, open market operations buying long bonds, and forward guidance — compressed long-end yields well beyond what repo cuts alone imply. Additionally, yields spiked sharply in March before collapsing — a fund that held through the panic captured the March reversal and the subsequent rally, generating returns far larger than the December-to-December yield change suggests.",
+            "C": "Credit spread compression explains the gap — RBI liquidity support stabilised the financial system and compressed corporate bond spreads over G-Secs, allowing funds holding any corporate paper to earn substantially more than a pure G-Sec fund would have.",
+            "D": "Duration itself increases as yields fall — when bond prices rise, modified duration extends, meaning sensitivity to each subsequent basis point move increases. A fund that started at 7-year duration effectively had longer duration through the trough, amplifying returns beyond the static formula."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe RBI's 2020 measures — TLTRO, open market operations, and forward guidance — compressed long-end yields well beyond what repo cuts alone would predict. Additionally, yields spiked sharply in March 2020 before collapsing. A fund that held through the panic captured the March reversal plus the subsequent rally.\n\nWhy the other options are incorrect:\nOption A: The intra-year trough rebalancing explanation is speculative and not the documented primary driver. Option B identifies the systematic structural driver that applies across funds.\nOption C: Credit spread compression explains some corporate bond fund outperformance but not the outperformance of G-Sec-focused long-duration funds.\nOption D: Duration extension as yields fall (positive convexity) is a real mathematical property but the incremental effect is second-order relative to the primary explanation."
+        },
+        {
+          "id": "ep02_q9",
+          "qno": "Q9",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "A distributor advises a client to stay in a long-duration fund throughout the entire 2022 rate-hike cycle, arguing: \"The carry will compensate over time.\" The fund earns -1.2% for the full year 2022. Was the advice sound?",
+          "options": {
+            "A": "Yes — -1.2% in a year when equity fell 20%+ in some markets and inflation ran at 6-7% is actually a strong relative outcome. The carry-compensation argument is vindicated by the fact that the fund didn't produce a larger loss despite the severity of the rate shock.",
+            "B": "The advice was sound only if the client's horizon was genuinely 3+ years. For a client with a 2-year horizon, the -1.2% annual loss plus the subsequent recovery period leaves them with a worse outcome than a short-duration alternative — the carry-compensation argument requires time the client may not have had.",
+            "C": "No — a distributor who had read the January 2022 macro signals correctly (WPI at 13%, global commodity shock, Fed tightening) should have recommended reducing duration before the cycle. Staying in long-duration through an avoidable cycle is advice failure regardless of the eventual carry recovery.",
+            "D": "The advice cannot be evaluated on 2022 alone — the right assessment requires looking at the 3-year outcome from 2020 to 2023, which likely shows the long-duration fund outperforming short-duration alternatives on a total-return basis including the 2020 rally, the 2022 loss, and the 2023 partial recovery."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe advice was sound only if the client's investment horizon was genuinely 3+ years. For a client with a 2-year horizon, the -1.2% annual loss plus the recovery period required leaves them with a worse outcome than a short-duration alternative — carry compensation requires time the client may not have had.\n\nWhy the other options are incorrect:\nOption A: '-1.2% is a strong relative outcome' accepts a framing that avoids the question's core issue. The question is whether the advice to stay in long-duration was sound for the specific client — which depends on their investment horizon.\nOption C: Penalising the distributor for not reading January 2022 macro signals correctly applies hindsight. The question asks whether the advice to stay invested was sound on its own terms.\nOption D: The 3-year total return assessment is useful, but Option D presents it as the only valid assessment, dismissing the 2022 annual assessment entirely. The one-year result is relevant for clients with shorter horizons."
+        },
+        {
+          "id": "ep02_q10",
+          "qno": "Q10",
+          "type": "Data",
+          "difficulty": "Medium",
+          "stem": "A distributor considers recommending a switch based on the 1.6% annual advantage. What is the most rigorous analysis before making that call?",
+          "options": {
+            "A": "The 2020-2022 window includes the COVID rate-cut rally and the 2022 rate-hike shock — a window that disproportionately rewarded long duration in 2020 and punished it in 2022. A pure tightening-cycle window would show very different relative returns and reveals whether the topper's approach is genuinely superior.",
+            "B": "The 1.6% annual difference is not manager alpha — it is duration premium. The topper took approximately twice the duration risk of Axis. The right question is whether the client wants double the rate sensitivity — and what the topper's 2022-specific return looked like to understand the asymmetry they are implicitly accepting going forward.",
+            "C": "Before recommending a switch, examine whether the topper holds clean credit exposure — a 9.4% CAGR including credit spread compression from lower-quality holdings is fundamentally different from 9.4% driven by pure duration management, though the return table shows them identically.",
+            "D": "The switch creates a capital gains tax event on exit plus re-entry timing risk — the net-of-tax and net-of-timing advantage of switching needs to exceed the 1.6% annual gap before the move is financially justified for a 30% bracket investor."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nBefore switching, examine whether the topper holds clean credit exposure. A 9.4% CAGR including credit spread compression from lower-quality holdings is fundamentally different from 9.4% driven by pure duration management — though the return table shows both identically.\n\nWhy the other options are incorrect:\nOption A: The window selection critique is valid but secondary once the credit composition question is resolved. Measuring across different periods does not address whether the excess return is credit or duration driven.\nOption B: 'Duration premium' explanation is correct but still does not identify the most important risk to assess before switching — which is the credit quality of the topper's holdings.\nOption D: Capital gains tax and timing cost are real switching costs but are transactional considerations. The more important analytical gap is whether the comparison is even valid given potentially different credit risk profiles."
+        }
+      ]
+    },
+    {
+      "title": "Credit Lessons",
+      "full_title": "Phase 3 — Credit Lessons",
+      "introduction": "Three credit events from 2018 to 2020 represent the most important case studies in Indian fixed income history. IL&FS (September 2018): a liquidity crisis where a AAA-rated entity could not roll over short-term debt. DHFL (2019): a credit fraud where loan books were fabricated. Franklin Templeton (April 2020): a redemption crisis where illiquid bonds in open-ended funds could not be liquidated under redemption pressure. Each failure had a different cause requiring a different analytical response.",
+      "answer_framework": "The three failure archetypes test analytical precision. Conflating them is the common error. IL&FS was analytically knowable through group structure analysis (opacity should have triggered avoidance regardless of rating). DHFL required forensic accounting analysis of loan origination quality. Franklin required understanding the mismatch between open-end fund structure and illiquid portfolio construction. Axis's clean record across all three reflects different process elements being correctly applied.",
+      "questions": [
+        {
+          "id": "ep02_q11",
+          "qno": "Q11",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "IL&FS maintained a AAA rating until its September 2018 default. Rating agencies blamed opacity in intra-group cash flows. Fund managers blamed the agencies. What is the most intellectually honest allocation of responsibility — and what does it imply for credit process?",
+          "options": {
+            "A": "Rating agencies bear primary responsibility — they are paid to assess credit, have access to audited accounts, and their AAA designation is the primary basis on which fund managers make credit decisions. When the designation is wrong, the fault lies with the assessment, not the decision made in reliance on it.",
+            "B": "Responsibility is shared, but the deeper implication is that a prudent fund manager should treat analytical opacity — complex group structures, opaque inter-company flows — as a credit risk independent of the external rating. The correct response to \"this is hard to analyse\" is a higher required yield or avoidance, not acceptance of the AAA label as sufficient diligence.",
+            "C": "The RBI and Ministry of Finance bear the greatest responsibility — IL&FS was a quasi-government entity operating with an implicit sovereign backing assumption that was never formalised. The regulatory ambiguity created conditions where the credit risk was effectively hidden by design, not by analytical failure.",
+            "D": "Fund managers bear primary responsibility — the fiduciary duty to protect investors creates an obligation of independent analysis that cannot be outsourced to rating agencies. Every fund house that held IL&FS paper was professionally negligent regardless of whether the external rating was accurate."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nResponsibility is shared, but the deeper implication is that prudent fund managers should treat analytical opacity — complex group structures, opaque inter-company flows — as a credit risk independent of the external rating. 'Hard to analyse' should trigger a higher required yield or avoidance, not acceptance of the AAA label.\n\nWhy the other options are incorrect:\nOption A: Rating agencies bear significant responsibility but assigning primary responsibility to them allows fund managers to escape their fiduciary obligation to independent analysis.\nOption C: Regulatory ambiguity is a contributing factor, but assigning greatest responsibility to the RBI and Ministry of Finance does not provide actionable implications for how fund managers should change their credit process.\nOption D: Fund managers bear primary responsibility understates the information asymmetry they faced and overstates the degree to which independent analysis could have definitively contradicted a AAA rating."
+        },
+        {
+          "id": "ep02_q12",
+          "qno": "Q12",
+          "type": "Data",
+          "difficulty": "Medium",
+          "stem": "In retrospect, was 260bps adequate compensation for the credit risk of holding DHFL — and what does the answer reveal about how Indian credit spreads were systematically priced in 2017-18?",
+          "options": {
+            "A": "260bps was reasonable ex-ante compensation — DHFL was AA-rated by credible agencies at the time, and no spread level can fully compensate for a complete rating failure combined with principal loss. The inadequacy is about the rating accuracy, not the spread level given the rating.",
+            "B": "260bps was drastically insufficient — a 60-70% principal loss on a 3-year instrument requires spreads of several thousand basis points to be actuarially fair. Indian credit spreads systematically underpriced NBFC credit risk because default probabilities were misestimated by all participants simultaneously, not just DHFL specifically.",
+            "C": "Whether 260bps was adequate depends entirely on the probability of default assigned at the time — if AA paper is expected to default 0.1% annually, 260bps is generous compensation. The problem was the systematic underestimation of default probability, not the spread level given that probability estimate.",
+            "D": "The comparison is misleading because DHFL's default was a liquidity crisis exacerbated by IL&FS contagion — a systemic shock that no normal credit spread could absorb. Analysing it as a standalone credit failure misses the contagion dimension that made the loss inevitable rather than predictable."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nWhether 260bps was adequate depends on the default probability assigned at the time. If AA paper is expected to default at 0.1% annually, 260bps is generous compensation. The systemic problem was the underestimation of default probability — not the spread level given that probability estimate.\n\nWhy the other options are incorrect:\nOption A: This option conflates the question of spread adequacy with rating accuracy, concluding that 'no spread can compensate for a rating failure' — which is too broad and does not answer whether 260bps was adequate given the information available.\nOption B: '260bps was drastically insufficient' is an ex-post rationalisation using the actual outcome. The question asks about adequacy given the information and probability estimates available at the time of investment.\nOption D: The contagion argument has merit as an explanation for the severity, but it does not address whether the spread was adequate compensation for the known risk profile at the time of investment."
+        },
+        {
+          "id": "ep02_q13",
+          "qno": "Q13",
+          "type": "Scenario",
+          "difficulty": "Medium-Hard",
+          "stem": "Who is more right — and why does the distinction matter for how Axis presents its liquidity approach?",
+          "options": {
+            "A": "The CIO is more right — COVID created genuinely unprecedented liquidity conditions that no portfolio could fully have anticipated. The analyst is applying hindsight bias to decisions made in a different information environment; the credit quality of the Franklin funds was not the proximate cause of the wind-up.",
+            "B": "Both are partially right — the 2020 liquidity shock was real and severe, but the analyst is correct that portfolio construction choices of 2017-2019 progressively eliminated the liquidity buffers that would have allowed the funds to meet redemptions without forced selling. The crisis revealed accumulated risk; it didn't create it.",
+            "C": "The analyst is more right — Franklin progressively reduced G-Sec and liquid holdings from 2017-2019 to chase higher yields, making it structurally unable to honour daily redemptions without distressed selling. An open-end fund that cannot meet daily redemptions has violated its fundamental promise regardless of external trigger.",
+            "D": "The CIO's argument is valid for 2020 but doesn't explain why Franklin fared worse than comparable fund houses facing identical market conditions. Peers with similar credit quality but better liquidity buffers navigated the same period without wind-up — which confirms portfolio construction decisions, not market conditions, as the determining factor."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nBoth the CIO and the analyst are partially right — the 2020 liquidity shock was real and severe, but portfolio construction choices of 2017-2019 progressively reduced liquidity buffers. The crisis revealed accumulated risk; it did not create it.\n\nWhy the other options are incorrect:\nOption A: 'COVID was unprecedented and no process could have anticipated it' is the CIO's defence, which Option A largely accepts. But Franklin fared worse than comparable fund houses facing identical market conditions — same external environment, different outcomes.\nOption C: 'The analyst is more right' overstates the case. The 2020 liquidity conditions were genuinely severe — acknowledging that the crisis was a real external stress is analytically honest, even while accepting the portfolio construction critique.\nOption D: Option D makes the valid peer comparison point but frames it as supporting the analyst's position — however, it is most accurately evidence that the answer is nuanced, not that the analyst is definitively right."
+        },
+        {
+          "id": "ep02_q14",
+          "qno": "Q14",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "Credit conditions appear benign in 2025 — five years since the last major event. A distributor argues: \"SEBI's post-IL&FS reforms have structurally reduced credit risk in Indian markets. Conservative approaches are less differentiated now than they were in 2018.\" How do you evaluate this claim?",
+          "options": {
+            "A": "The claim has a structural flaw — regulation addresses the specific failure modes identified in the last crisis, not the ones that will manifest in the next one. Post-IL&FS reforms were designed to prevent IL&FS-type failures; the next credit event will almost certainly come from a category the new rules weren't designed to address.",
+            "B": "The claim is partially sound — regulatory improvement does reduce one type of known credit risk — but it conflates reducing a specific risk with reducing credit risk generally. Markets where one risk has been regulated away may compensate by accumulating risk in less-regulated areas, leaving net credit risk level ambiguous.",
+            "C": "The claim is sound for sophisticated institutional investors who can distinguish regulated from unregulated risk categories — but not for retail-oriented fund managers who rely on external ratings as a primary input, for whom conservative approaches remain as differentiated as ever.",
+            "D": "The claim is correct that conservative approaches are less differentiated in a transparent market — if all fund houses now have better credit tools and more disclosure, the edge from independent analysis narrows. Axis's differentiation shifts from \"avoiding what others didn't see\" to \"maintaining discipline when others chase yield in the next calm period.\""
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nPost-IL&FS regulation addresses the specific failure modes identified in that crisis, not the failure modes of the next one. For retail-oriented fund managers who rely on external ratings as a primary input, conservative approaches remain as differentiated as they were in 2018 — because the new risks will emerge in categories the current rules were not designed to address.\n\nWhy the other options are incorrect:\nOption A: Option A has structural validity but states 'conservative approaches remain as differentiated' too absolutely without acknowledging that some improvement in information quality has occurred.\nOption B: 'Regulation may create risk accumulation elsewhere' is analytically sophisticated but is a systemic macro observation rather than a direct evaluation of the distributor's specific claim about differentiation.\nOption D: 'The claim is correct that conservative approaches are less differentiated in a transparent market' concedes too much. Post-regulation transparency improvements are real but modest."
+        },
+        {
+          "id": "ep02_q15",
+          "qno": "Q15",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "A peer fund house argues post-IL&FS: \"The default was a black swan — no credit process could have identified it in advance. Our exposure was a reasonable risk decision given available information.\" What is the most rigorous counter-argument without overclaiming?",
+          "options": {
+            "A": "\"Black swan\" is factually incorrect — IL&FS's group structure, related-party transactions, and dependence on continuous short-term refinancing were visible in public documents. The default was a grey rhino: knowable, visible risk that was systematically ignored rather than genuinely unforeseeable.",
+            "B": "The default timing was genuinely not predictable — that concession is warranted. But the question for a fund manager is not whether the default could be predicted but whether the risk profile warranted holding the paper at all. A group that cannot be independently analysed for cash flow adequacy is not appropriate for a daily-redemption open-end fund, regardless of its rating or when the default ultimately occurs.",
+            "C": "The \"available information\" argument is the weakest part — IL&FS's group structure was publicly visible, and the fact that most fund houses ignored the analytical complexity doesn't make the information unavailable. The industry's collective blindspot is not an information gap; it is a collective analytical failure.",
+            "D": "The argument conflates two separate questions: whether the default was foreseeable, and whether the holding was appropriate given the analytical opacity. The peer wins the first debate and loses the second — and the second question is the one that actually determines whether investors were protected."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe default timing was genuinely not predictable — that concession is warranted. But the question for a fund manager is not whether the default could be predicted but whether the risk profile warranted holding the paper at all. A group that cannot be independently analysed for cash flow adequacy is not appropriate for a daily-redemption open-end fund.\n\nWhy the other options are incorrect:\nOption A: 'Black swan is factually incorrect — IL&FS was a grey rhino' may overclaim how visible the risk was to all market participants using standard public disclosure. It risks being seen as using hindsight.\nOption C: 'The industry's collective blindspot is not an information gap; it is a collective analytical failure' is a strong claim that needs specific evidence about what information was available and ignored.\nOption D: Option D makes an interesting distinction but frames it as the peer 'winning' the first debate — which concedes more ground to the peer's argument than the analytical evidence warrants."
+        }
+      ]
+    },
+    {
+      "title": "Axis Process",
+      "full_title": "Phase 4 — Axis Process",
+      "introduction": "Axis's credit committee rejected IL&FS paper before the default, citing analytical opacity in inter-group cash flows. Zero exposure to DHFL. Zero AT1 bond exposure. Maintained liquidity buffers through COVID redemption pressure in 2020. These are not retrospective claims — they are verifiable portfolio records from the relevant periods. The questions test whether the distributor can present this record with appropriate specificity, distinguish what each decision demonstrates about the process, and respond to the legitimate challenge that many fund houses avoided these events.",
+      "answer_framework": "The credit process differentiation argument has three components: (1) What specific analytical discipline led to each avoidance decision; (2) Why the same outcome in different AMCs does not imply the same process quality; (3) How the distributor presents the track record to sophisticated distributors who are calibrated enough to test the claim. The examiner rewards participants who acknowledge legitimate challenges rather than overstating the case.",
+      "questions": [
+        {
+          "id": "ep02_q16",
+          "qno": "Q16",
+          "type": "Axis",
+          "difficulty": "Medium",
+          "stem": "Axis Credit Risk Fund earned 50-75bps below the most aggressive peers during 2014-2018. Distributors could have pointed clients to higher-yielding alternatives throughout. In retrospect the approach was clearly right. What is the most important thing to understand about why it was hard to defend in real time?",
+          "options": {
+            "A": "It was hard because the credit events vindicating the conservative approach hadn't happened yet — you cannot explain future protection against risks that are currently invisible, making the 50-75bps deficit look like poor management rather than deliberate conservatism.",
+            "B": "It was hard because distributor incentives are tied to performance rankings — recommending a fund that consistently earns less than peers creates professional risk for the distributor, even when the lower return reflects lower risk rather than lower quality management.",
+            "C": "It was hard because every standard evaluation tool a distributor uses — yield table, return ranking, category percentile — made the Axis fund appear inferior. These tools cannot distinguish \"lower yield because of deliberately lower risk\" from \"lower yield because of poor credit sourcing.\" The tools themselves generate the wrong conclusion in partial cycles.",
+            "D": "It was hard because Axis had not yet established the institutional reputation that would make its conservative approach credible to skeptical distributors — a newer fund house with a cautious process looks timid where an established one looks disciplined, regardless of the underlying process quality."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nEvery standard evaluation tool a distributor uses — yield table, return ranking, category percentile — made the Axis fund appear inferior in 2014-2018. These tools cannot distinguish 'lower yield because of deliberately lower risk' from 'lower yield because of poor credit sourcing.' The tools themselves generate the wrong conclusion in partial cycles.\n\nWhy the other options are incorrect:\nOption A: Invisible future protection is a real explanation, but it is simply the time-horizon explanation stated differently. The more precise answer is that the evaluation tools themselves generated a systematically incorrect signal.\nOption B: Distributor incentive misalignment is a real structural problem, but it describes why distributors don't want to recommend the conservative fund — not why they can't tell it apart from an inferior fund.\nOption D: Reputational establishment is a contributing factor but not the primary explanation. The tool problem exists regardless of Axis's reputation."
+        },
+        {
+          "id": "ep02_q17",
+          "qno": "Q17",
+          "type": "Axis",
+          "difficulty": "Medium",
+          "stem": "Axis's investment committee rejected IL&FS paper before the default, citing complex structure and opaque cash flows. In 2016 this cost approximately 40bps of yield. What would this decision have looked like to a distributor comparing Axis against peers in 2016 — and what makes that uncomfortable to acknowledge?",
+          "options": {
+            "A": "The decision would have looked correct in 2016 to any distributor who understood the IL&FS group structure — the opacity was visible from public documents, and a distributor doing proper due diligence would have recognised the same risk Axis identified independently.",
+            "B": "The discomfort is that the same process that produced the right outcome looked indistinguishable from poor yield-management until the event occurred. Good credit process protects capital precisely by appearing unnecessary when it's working — and a distributor had no way to distinguish Axis's prudence from timidity until 2018.",
+            "C": "The decision would have been difficult to explain but not uncomfortable — Axis's process had a clear rationale (opacity warrants avoidance), which any informed distributor could evaluate independently from public documents without needing to know the outcome.",
+            "D": "The discomfort would have been minimal because the 40bps yield deficit was small relative to total fund returns — most distributors would not have flagged it as a specific concern worth questioning, making the comparison less pointed than it appears in retrospect."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nThe Axis investment committee's IL&FS rejection would have looked correct in 2016 to any distributor who understood the IL&FS group structure — the analytical opacity was visible from public documents, and a distributor doing proper due diligence would have recognised the same risk Axis identified.\n\nWhy the other options are incorrect:\nOption A: Option A concedes too much — it claims the decision was 'indistinguishable from poor yield management' for all distributors. But a distributor who applied the same credit analysis Axis applied would have seen the rationale clearly.\nOption B: Option B frames the correct credit process as appearing 'unnecessarily timid,' which is not fully accurate. It was correct with available information, not just in retrospect.\nOption D: 40bps being 'small relative to total returns' misses the point — the question is about the psychological and analytical difficulty of the decision, not whether it was materially significant."
+        },
+        {
+          "id": "ep02_q18",
+          "qno": "Q18",
+          "type": "Axis",
+          "difficulty": "Medium",
+          "stem": "A sophisticated distributor challenges: \"Many fund houses avoided IL&FS — Axis wasn't unique. What specifically makes the credit track record differentiated?\" How do you answer without overstating the case?",
+          "options": {
+            "A": "Axis was actually one of very few fund houses with zero IL&FS exposure — the distributor's premise that \"many avoided it\" is not accurate at the scale of exposure that mattered. The clean record on IL&FS alone is a genuinely differentiating fact, not a claim shared by most peers.",
+            "B": "The differentiation is not one event but the combination: clean on IL&FS (complex structure risk), clean on DHFL and AT1 bonds (subordination and systemic risk), and maintained liquidity through COVID's redemption pressure. Three different types of stress over eight years — each requiring different analytical judgment — is the credential. Consistency across varied challenges is process, not luck.",
+            "C": "The distributor's challenge is fair — if many houses avoided IL&FS, the differentiation should be grounded in the specific process Axis uses rather than outcomes. Presenting the credit framework (cash flow analysis, opacity avoidance, liquidity buffers) gives the distributor a forward-looking reason for confidence rather than a backward-looking claim.",
+            "D": "Acknowledge the challenge is legitimate. The honest answer: Axis's differentiation is strongest not on any single event but on the full sequence — three distinct types of credit and liquidity stress over eight years, all requiring different process elements to navigate. One clean event could be luck; clean across all three, across different risk types, is process."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe differentiation is not one event but the combination: clean on IL&FS (complex structure risk), clean on DHFL and AT1 bonds (subordination and systemic risk), and maintained liquidity through COVID. Three different types of stress over eight years — each requiring different analytical judgment — is the credential.\n\nWhy the other options are incorrect:\nOption A: The claim that Axis was 'one of very few fund houses with zero IL&FS exposure' may be factually incorrect — the distributor's challenge that 'many avoided it' warrants acknowledgment, not immediate contradiction.\nOption C: Shifting to process presentation is good practice, but the question asks how to answer the challenge about differentiation — Option C avoids directly engaging with the track record question.\nOption D: Option D acknowledges the challenge as legitimate but then makes essentially the same argument as B — the difference is that D presents it as a concession followed by a point, while B presents it directly."
+        },
+        {
+          "id": "ep02_q19",
+          "qno": "Q19",
+          "type": "Scenario",
+          "difficulty": "Medium-Hard",
+          "stem": "What is the single most diagnostic question to ask before accepting this as alpha rather than uncompensated credit risk premium?",
+          "options": {
+            "A": "What is the average credit rating of the portfolio? If the higher yield comes from holding BB and B-rated paper versus the category's AA average, the extra return is credit risk premium at a lower rating tier — not selection skill within equivalent credit risk.",
+            "B": "Has the fund maintained this yield advantage through at least one credit stress period — IL&FS (2018), DHFL/NBFC cascade (2019), Franklin wind-up (2020) — without meaningful impairment? A higher yield never tested in credit stress is credit risk not yet realised, not selection skill proven under pressure.",
+            "C": "What is the fund's liquidity profile? Higher yield achieved through illiquid instruments is vulnerable to redemption pressure — credit stress combined with redemption demand creates forced selling that no selection skill can prevent regardless of the underlying credit quality.",
+            "D": "Who are the top 10 issuers and what are their leverage metrics? The quality of the specific credit selection — not just the average rating — determines whether the yield premium is compensated or uncompensated risk, and this is the data that supports the manager's actual claim."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nWhat is the fund's liquidity profile? Higher yield achieved through illiquid instruments is vulnerable to redemption pressure. Credit stress combined with redemption demand creates forced selling that no selection skill can prevent regardless of underlying credit quality — as the Franklin episode demonstrated.\n\nWhy the other options are incorrect:\nOption A: Average credit rating is a useful diagnostic but is a single metric that can be gamed through rating selection. The liquidity question is more revealing of structural vulnerability.\nOption B: Testing through stress periods is the most comprehensive validation but requires historical data that may not be available. The liquidity profile question is actionable as a forward-looking diagnostic.\nOption D: Top 10 issuers and leverage metrics are important for credit quality assessment but are component-level analysis. The liquidity question is the single most diagnostic because it addresses the structural ability of the fund to survive credit stress."
+        },
+        {
+          "id": "ep02_q20",
+          "qno": "Q20",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "Five years of benign credit conditions. An HNI client with ₹5 crore in high-quality debt funds asks: \"Why shouldn't I move to higher-yielding credit risk funds now that the major events are behind us?\" The extra yield being considered is approximately 80bps. What is the most rigorous and honest response?",
+          "options": {
+            "A": "The client's timing logic has merit — benign conditions do reduce near-term default risk, and 80bps on ₹5 crore is ₹4 lakh per year of real incremental income. A partial allocation of 20-30% to the higher-yielding fund captures the yield advantage while limiting downside exposure.",
+            "B": "The quantitative reframe: 80bps = ₹4 lakh per year. A single credit event with 60% loss on a 5% position = ₹15 lakh permanent loss. The risk-reward question is whether ₹4 lakh annual income justifies ₹15 lakh permanent loss risk on each position — and how many such positions exist in the fund.",
+            "C": "Acknowledge the logic, then ask the diagnostic question: is this ₹5 crore the client's safety capital — money that should not be at risk of impairment — or part of a broader portfolio where some growth orientation is acceptable? The mandate for this specific allocation determines the correct recommendation, not the current market environment.",
+            "D": "Name the Minsky dynamic directly: credit events follow extended calm periods, not chaotic ones. The client asking this question after 5 quiet years is asking to increase credit risk at precisely the point where it has been accumulating most. The calm period is not evidence of reduced risk — it is often evidence of risk being built."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe quantitative reframe: 80bps = Rs 4 lakh per year. A single credit event with 60% loss on a 5% position = Rs 15 lakh permanent loss. The risk-reward question is whether Rs 4 lakh annual income justifies Rs 15 lakh permanent loss risk on each position — and how many such positions exist in the fund.\n\nWhy the other options are incorrect:\nOption A: The partial allocation approach sounds balanced but does not actually answer whether the risk-reward is favourable. A 20-30% allocation to a fund with adverse risk-reward is still an adverse allocation.\nOption C: The use-case question is a useful framing for suitability but does not directly address whether the 80bps pickup justifies the credit risk of the specific instruments being considered.\nOption D: The Minsky dynamic observation is sophisticated but is a macro argument about credit cycle positioning, not a client-level risk-reward calculation."
+        }
+      ]
+    },
+    {
+      "title": "Product Positioning",
+      "full_title": "Phase 5 — Product Positioning",
+      "introduction": "Fixed income product selection requires matching the fund's duration profile and credit quality to the client's investment horizon and risk tolerance. A client with money needed in 9 months should not be in a long-duration fund regardless of the rate cycle. The post-April 2023 tax amendment changed the calculus for the 2-4 year horizon — pure debt funds lost their indexation benefit and are now taxed at marginal rate, making equity-light hybrids significantly more tax-efficient for that horizon.",
+      "answer_framework": "Product positioning questions test: (1) Correct duration-to-horizon matching; (2) Understanding of the April 2023 tax amendment's specific impact; (3) The specific conditions under which Income Advantage (equity taxation) is appropriate versus when capital preservation constraints make it unsuitable; (4) The honest presentation of product trade-offs rather than positioning every product as superior for every client.",
+      "questions": [
+        {
+          "id": "ep02_q21",
+          "qno": "Q21",
+          "type": "Scenario",
+          "difficulty": "Medium-Hard",
+          "stem": "What is the single most powerful reframe — and under what one condition does the savings account remain the correct answer?",
+          "options": {
+            "A": "The strongest reframe is post-tax comparison: 3.5% savings interest taxed at 30% yields 2.45% effective; the debt fund at 7% yields approximately 4.9% at the same tax rate after the 2023 amendment. Over 5 years on ₹20 lakhs, the difference is material. The savings account is only right if the client is in a very low tax bracket where the gap narrows to trivial.",
+            "B": "The strongest reframe is that \"safety\" in this context is illusory — 3.5% nominal against 5-6% inflation is a guaranteed real loss. The risk being avoided (short-term NAV movement) is smaller than the risk being accepted (certain purchasing power erosion over 5 years). The savings account is only right if the 5-year horizon is genuinely not true — if early withdrawal is likely, the \"safe\" label becomes accurate for the right reason.",
+            "C": "The strongest reframe is absolute wealth comparison: ₹20 lakhs at 3.5% for 5 years becomes ₹23.8 lakhs; at 7% it becomes ₹28.1 lakhs — a ₹4.3 lakh difference. The savings account is only right if the client has a specific, imminent financial need that would require full liquidity within the stated 5-year period.",
+            "D": "The strongest reframe is that the client is confusing instrument safety (bank deposit insurance) with investment safety (preserving real purchasing power over 5 years). These are different things — instrument safety is about counterparty risk; investment safety is about outcome risk. The savings account is only right for money genuinely needed within 1-2 years, not for a stated 5-year investment."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe strongest reframe is that 'safety' in this context is illusory — 3.5% nominal against 5-6% inflation is a guaranteed real loss. The risk being avoided (short-term NAV movement) is smaller than the risk being accepted (certain purchasing power erosion over 5 years).\n\nWhy the other options are incorrect:\nOption A: Post-tax comparison is compelling for tax-aware clients but is a secondary argument. The inflation and real purchasing power argument is more fundamental and applies to any investor regardless of tax bracket.\nOption C: The absolute wealth comparison (Rs 23.8L vs Rs 28.1L) is concrete for number-responsive clients. But the conceptual clarity of real vs nominal returns in Option B is more durable as a conviction argument.\nOption D: The instrument safety vs investment safety distinction is analytically precise but requires a conceptual explanation. Option B's inflation argument is more immediately intuitive."
+        },
+        {
+          "id": "ep02_q22",
+          "qno": "Q22",
+          "type": "Data",
+          "difficulty": "Medium",
+          "stem": "What is the most complete evaluation of this claim?",
+          "options": {
+            "A": "The claim overstates the impact — even at 30% tax, a debt fund earning 7% returns a post-tax 4.9% which still beats FDs and savings on an after-tax basis. The multi asset tax advantage is real but shouldn't imply debt funds are irrational in all scenarios.",
+            "B": "The tax argument is compelling for 2+ year horizons but debt funds remain appropriate for: money needed within 12 months (where STCG applies to both product types anyway), pure capital-preservation mandates where equity correlation is unacceptable, and liability-matching needs where cash flow certainty matters more than tax optimisation.",
+            "C": "The planner is largely correct for 30% bracket investors with 2+ year horizons, but the conclusion needs precision: multi asset is superior for investors who can tolerate equity-linked NAV volatility. For clients who genuinely cannot — capital preservation mandates, near-retirement, specific liability matching — debt funds remain appropriate regardless of the tax disadvantage.",
+            "D": "The argument conflates tax efficiency with investment suitability — these are different optimisation objectives. Multi asset's equity taxation advantage is real for long-horizon investors, but recommending it universally to 30% bracket investors puts tax optimisation above investment suitability, which is the wrong hierarchy for fiduciary advice."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nThe planner is largely correct for 30% bracket investors with 2+ year horizons, but the conclusion requires precision: multi asset is superior for investors who can tolerate equity-linked NAV volatility. For clients who genuinely cannot — capital preservation mandates, near-retirement, specific liability matching — debt funds remain appropriate regardless of the tax disadvantage.\n\nWhy the other options are incorrect:\nOption A: Option A correctly identifies that debt funds retain post-tax advantages over FDs/savings — but minimises the tax disadvantage comparison between debt funds and multi asset, which is the core of the planner's claim.\nOption B: Option B identifies the correct exceptions but frames the planner as 'largely correct' and then appends exceptions, whereas Option C makes the precision of investor segmentation the central point.\nOption D: 'Tax efficiency vs investment suitability' as competing objectives is an important distinction but is abstract. Option C's investor profile segmentation is more directly actionable for a distributor."
+        },
+        {
+          "id": "ep02_q23",
+          "qno": "Q23",
+          "type": "Axis",
+          "difficulty": "Medium",
+          "stem": "Axis Liquid Fund earns 10-20bps below the highest-yielding liquid fund peers. A distributor asks: \"Why recommend Axis Liquid when competitors offer more yield in the same category?\" What is the most credible and honest answer?",
+          "options": {
+            "A": "For money that is genuinely liquid — potentially needed within days — the 10-20bps gap is cheap insurance against a commercial paper credit event. Optimising yield within the safety layer trades off the wrong variables: the liquid fund's role is principal certainty, not yield maximisation.",
+            "B": "The honest answer: for money that can tolerate any incremental credit risk, a higher-yielding liquid fund with equivalent quality is a reasonable choice. The Axis recommendation is most defensible for money where principal certainty is the overriding constraint — and for that money, 10-20bps is not worth any incremental risk regardless of how small it appears.",
+            "C": "First ask what the money is actually for. For money awaiting deployment over 30-90 days at ₹5 crore+, 15bps is ₹7,500 — not trivial, and a slightly higher-yielding fund with comparable quality may be rational. For a client's emergency reserve where capital certainty is absolute, Axis's conservatism is clearly superior. The recommendation depends on the use case.",
+            "D": "The yield comparison misses structural advantages: Axis's liquid fund has maintained tighter NAV consistency in market stress, and the institutional relationships that the credit process avoids also mean fewer potential conflicts of interest in commercial paper selection — advantages invisible in calm-market comparisons."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe honest answer: for money where principal certainty is the overriding constraint, Axis's conservatism is clearly superior and 10-20bps is not worth any incremental risk. For money that can tolerate some incremental credit risk, a higher-yielding competitor with equivalent quality may be a reasonable choice.\n\nWhy the other options are incorrect:\nOption A: Option A makes the case for Axis but does not acknowledge that for some money — where some incremental risk is acceptable — the higher-yielding fund could be a reasonable choice.\nOption C: Option C gives the most comprehensive nuanced answer and is close to the best practical response. The distinction between C and B is subtle — C asks the diagnostic question first, B states the principle first. B is more direct.\nOption D: Structural advantages invisible in calm markets is a valid point but is a secondary argument for Axis's conservative approach. The primary answer should be direct, not focused on hypothetical stress scenarios."
+        },
+        {
+          "id": "ep02_q24",
+          "qno": "Q24",
+          "type": "Judgment",
+          "difficulty": "Medium",
+          "stem": "A new distributor says: \"I've never had a client specifically ask for Axis fixed income funds — clients ask for equity and debt just ends up wherever the platform puts it.\" What is the most useful and honest answer about the opportunity cost of this mindset?",
+          "options": {
+            "A": "The cost is straightforward: Axis has an objectively differentiated fixed income story, and clients who understand the IL&FS/DHFL/Franklin record and still choose an alternative on autopilot are making an uninformed choice. The distributor who doesn't present the story is not doing their full job.",
+            "B": "The opportunity is twofold: the current easing cycle is among the best environments for active duration management in a decade, and the credit track record gives Axis a differentiation story that builds client confidence even in bad equity markets — a rare fixed income conversation that can actually strengthen the overall relationship.",
+            "C": "The honest answer is that the mindset reflects how most clients actually behave — they only care about debt when something goes wrong with it. The opportunity is to be the distributor who explains the story proactively, before the credit event or rate shock. That proactive conversation converts a \"set it and forget it\" allocation into a trust-building asset.",
+            "D": "The cost is primarily commercial: debt AUM is often larger than equity AUM for conservative clients, and a distributor who doesn't actively manage the debt allocation leaves a significant share of wallet undefended against competitors who do — while also missing the relationships that break most often in credit events and rate shocks."
+          },
+          "correct": "B",
+          "rationale": "Correct Answer: B\n\nWhy B is correct:\nThe opportunity is twofold: the current easing cycle is among the best environments for active duration management in a decade, and the credit track record gives Axis a differentiation story that builds client confidence even in bad equity markets. Fixed income done well is a trust-building asset, not just an allocation filler.\n\nWhy the other options are incorrect:\nOption A: Option A is accurate about what the distributor should do (present the track record) but is stated as a professional obligation rather than an opportunity.\nOption C: 'Distributors who explain proactively build trust' is correct but is a general sales principle that doesn't specifically identify the Axis fixed income opportunity in the current rate environment.\nOption D: The commercial framing (share of wallet, debt AUM size) is relevant but positions fixed income as a competitive defense rather than a client-value creation opportunity."
+        },
+        {
+          "id": "ep02_q25",
+          "qno": "Q25",
+          "type": "Scenario",
+          "difficulty": "Medium-Hard",
+          "stem": "The post-tax comparison strongly favours the Multi Asset Fund. What does the comparison reveal — and equally importantly, what does it conceal?",
+          "options": {
+            "A": "It reveals Multi Asset dominates both alternatives post-tax for a 30% bracket investor. What it conceals is whether the 11% expected return assumption is realistic — this is the primary uncertainty, and if the actual return is closer to 8%, the advantage over both alternatives narrows considerably.",
+            "B": "It reveals the post-tax return hierarchy clearly. What it conceals is the risk hierarchy: the Multi Asset Fund's 11% expected return is not the same type of certainty as the FD's 7.5%. The client gains post-tax advantage from Multi Asset by accepting equity-linked downside — a trade-off the comparison table doesn't show and that may be the most important thing for the client to understand before deciding.",
+            "C": "It reveals that the Medium Term Fund is now the weakest post-2023 option — pre-tax yield similar to FD but now taxed identically, eliminating the historical advantage. What it conceals is whether the client's capital-preservation constraints make the Multi Asset Fund's equity-linked volatility structurally inappropriate regardless of the tax outcome.",
+            "D": "It reveals strong post-tax advantage for Multi Asset over long horizons. What it conceals is that tax efficiency is a secondary consideration to investment suitability — a distributor who leads with the post-tax table is optimising the wrong variable for a client who first needs to decide whether they can tolerate equity correlation in their fixed-income allocation."
+          },
+          "correct": "C",
+          "rationale": "Correct Answer: C\n\nWhy C is correct:\nThe comparison reveals that the Medium Term Fund is now the weakest post-2023 option — its pre-tax yield is similar to the FD but it is now taxed identically, eliminating its historical advantage. What it conceals is that the client's capital-preservation constraints may make the Multi Asset Fund's equity-linked volatility structurally inappropriate regardless of the superior tax outcome.\n\nWhy the other options are incorrect:\nOption A: The expected return assumption uncertainty is a real limitation of any forward-looking comparison, but it is a general caveat about projection accuracy, not the most important thing the comparison conceals about this specific choice.\nOption B: Option B identifies the risk hierarchy issue — Multi Asset's 11% is not the same certainty as the FD's 7.5% — which is important but is something the comparison should have shown, not something it conceals.\nOption D: 'Tax efficiency is secondary to investment suitability' is correct as a hierarchy statement, but Option D frames it as a problem with how the comparison is being used rather than identifying what it conceals."
+        }
+      ]
+    }
+  ]
+}

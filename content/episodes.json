@@ -1,0 +1,54 @@
+{
+  "episodes": [
+    {
+      "id": "ep01",
+      "code": "EP01",
+      "title": "Equity Style Cycles",
+      "tagline": "Style Cycles — Why the Right Fund Can Underperform for Years",
+      "phases": 5,
+      "questions": 25,
+      "sheet": "EP01 — Style Cycles",
+      "content_file": "ep01.json"
+    },
+    {
+      "id": "ep02",
+      "code": "EP02",
+      "title": "Fixed Income",
+      "tagline": "Fixed Income — Precision in the Asset Class Clients Ignore Until It Fails",
+      "phases": 5,
+      "questions": 25,
+      "sheet": "EP02 — Fixed Income",
+      "content_file": "ep02.json"
+    },
+    {
+      "id": "ep03",
+      "code": "EP03",
+      "title": "Multi Asset",
+      "tagline": "Multi Asset — Solving the Investor Behaviour Problem",
+      "phases": 5,
+      "questions": 25,
+      "sheet": "EP03 — Multi Asset",
+      "content_file": "ep03.json"
+    },
+    {
+      "id": "ep04",
+      "code": "EP04",
+      "title": "The Resilient House",
+      "tagline": "The Resilient House — Building and Defending Distributor Conviction in Axis",
+      "phases": 5,
+      "questions": 25,
+      "sheet": "EP04 — Resilient House",
+      "content_file": "ep04.json"
+    },
+    {
+      "id": "ep05",
+      "code": "EP05",
+      "title": "The Passive Intelligence",
+      "tagline": "The Passive Intelligence — Mastering India's Fastest-Growing Investment Category",
+      "phases": 5,
+      "questions": 25,
+      "sheet": "EP05 — Passive Intel",
+      "content_file": "ep05.json"
+    }
+  ]
+}

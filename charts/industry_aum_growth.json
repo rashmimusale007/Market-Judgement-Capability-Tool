@@ -1,0 +1,20 @@
+{
+  "id": "industry_aum_growth",
+  "chart_type": "line",
+  "title": "Indian Mutual Fund Industry AUM Growth",
+  "unit": "₹ lakh crore",
+  "labels": [
+    "2016",
+    "2025"
+  ],
+  "datasets": [
+    {
+      "label": "Industry AUM",
+      "data": [
+        12.7,
+        82.0
+      ]
+    }
+  ],
+  "source": "REF — Data Reference 2025 (AMFI / CafeMutual Dec 2025; 10-year growth note)"
+}

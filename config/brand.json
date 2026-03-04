@@ -1,0 +1,15 @@
+{
+  "font": {
+    "primary": "Lato",
+    "fallback": "Arial, sans-serif"
+  },
+  "colors": {
+    "primary": "#97144D",
+    "secondary": "#ed1164",
+    "accent_priority": [
+      "#005a4b",
+      "#193661",
+      "#f15a22"
+    ]
+  }
+}

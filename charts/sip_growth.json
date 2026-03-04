@@ -1,0 +1,25 @@
+{
+  "chart_id": "sip_growth",
+  "chart_title": "Monthly SIP Inflows — Recent All‑time High",
+  "type": "bar",
+  "labels": [
+    "Oct 2025",
+    "Dec 2025"
+  ],
+  "datasets": [
+    {
+      "label": "Monthly SIP inflow (₹ crore)",
+      "data": [
+        29529,
+        31002
+      ]
+    }
+  ],
+  "meta": {
+    "source": "AMFI (as referenced in REF — Data Reference 2025 / REF — Dashboard)",
+    "notes": [
+      "Shows the latest record SIP inflows highlighted in the programme reference data.",
+      "Add longer history later if needed; the app chart component should support expanding labels/datasets."
+    ]
+  }
+}

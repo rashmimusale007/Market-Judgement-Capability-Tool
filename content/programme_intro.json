@@ -1,0 +1,54 @@
+{
+  "page_id": "programme_intro",
+  "title": "Market Judgment Capability Programme",
+  "subtitle": "Axis Mutual Fund",
+  "meta": {
+    "episodes": 5,
+    "phases": 25,
+    "questions": 125,
+    "edition": "December 2025"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "headline": "Build market judgment — not product memory.",
+      "cta": {
+        "label": "Start Exploring Episodes",
+        "target": "/episodes"
+      }
+    },
+    {
+      "type": "text",
+      "title": "The story behind the programme",
+      "content": "Axis Mutual Fund was launched in 2009, in the aftermath of the global financial crisis — a time when the investment world was being rebuilt.\n\nOver the last decade and a half, markets, investors and products have evolved dramatically.\n\n• The Indian economy moved through multiple growth cycles\n• Investor participation expanded across cities and channels\n• Mutual fund products evolved from basic equity funds to sophisticated strategies including hybrid, index and thematic funds\n• Technology and regulation reshaped how investors access markets\n\nAxis Mutual Fund itself evolved during this journey — starting with its first equity strategy in 2009 and gradually expanding across equity, debt, hybrid and passive funds while building a disciplined investment framework.\n\nUnderstanding this evolution is critical for anyone representing the Axis platform."
+    },
+    {
+      "type": "chart",
+      "chart_ref": "industry_aum_growth"
+    },
+    {
+      "type": "chart",
+      "chart_ref": "sip_growth"
+    },
+    {
+      "type": "chart",
+      "chart_ref": "axis_aum_growth",
+      "note": "Axis AUM is a placeholder in v1; connect to internal AUM series later."
+    },
+    {
+      "type": "text",
+      "title": "What this programme does",
+      "content": "This programme is designed to build market judgment.\n\nEach episode explores an important phase in the evolution of:\n\n• Markets\n• Investor behaviour\n• Mutual fund products\n• Axis investment philosophy\n\nThrough context, real data, and scenario-based assessments, the programme helps you connect events → markets → investment decisions → product outcomes."
+    },
+    {
+      "type": "text",
+      "title": "How it works",
+      "content": "Each episode contains:\n\nContext\nKey market events, data and investment insights.\n\nAssessment\nScenario-based questions testing your judgment.\n\nExplanation\nDetailed reasoning behind every answer.\n\nResults\nYour performance band and learning insights."
+    },
+    {
+      "type": "text",
+      "title": "The objective",
+      "content": "Not to memorise facts.\n\nBut to develop the ability to answer the most important question investors ask:\n\n“Why is this happening in the market — and what should we do about it?”"
+    }
+  ]
+}

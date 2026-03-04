@@ -1,0 +1,26 @@
+{
+  "id": "axis_aum_growth",
+  "chart_type": "line",
+  "title": "Axis Mutual Fund AUM Growth",
+  "unit": "₹ crore",
+  "labels": [
+    "2009",
+    "2012",
+    "2016",
+    "2020",
+    "2025"
+  ],
+  "datasets": [
+    {
+      "label": "Axis MF AUM",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "source": "TODO: fill from Axis internal MIS / monthly AUM book"
+}
